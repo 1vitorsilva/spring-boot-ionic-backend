@@ -35,7 +35,6 @@ public class Cliente implements Serializable{
 	@ElementCollection
 	@CollectionTable(name="TELEFONE")
 	private Set<String> telefones = new HashSet<>(); 
-	//Classe weak, não precisa ser instanciada, apenas adicionada diretamente na classe cliente através do Set, que não permite repetições
 	
 	public Cliente() {}
 
